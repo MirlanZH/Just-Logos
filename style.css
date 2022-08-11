@@ -57,3 +57,40 @@ h3{
     background: linear-gradient(to right,transparent,#000,#000);
     z-index: 2;
 }
+
+.adidas{
+    width: 206px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    }
+    .shape{
+        width: 46px;
+        height: 150px;
+        background-color: white;
+        position: absolute;
+        transform: rotate(-31deg);
+    }
+    .s1{
+        top:86px;
+        left: 36px;;
+    }
+    .s2{
+        top: 45px;
+        left: 82px;
+    }
+    .s3{
+        top:4px;
+        left: 128px;
+    }
+    
+    h4{
+        position: relative;
+        margin-top: 180px;
+        margin-left:-180px;
+        justify-content: center;
+        font-family: sans-serif;
+        color: white;
+        font-size: 2rem;
+       letter-spacing: 10px;    
+      }
